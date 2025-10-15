@@ -19,7 +19,9 @@ function Narbar() {
                     <li className='hover:underline decoration-cyan-400 decoration-2 underline-offset-[2.5rem]'>Careers</li>
                 </ul>  
             </div>
-            <button className='md:block hidden bg-linear-to-r from-cyan-400 to-green-500  px-8 py-3  text-white rounded-[50px] hover:opacity-50'>Request Invite</button>
+            <button
+               className='md:block hidden bg-linear-to-r from-cyan-400 to-green-500  px-8 py-3  text-white rounded-[50px] hover:opacity-50 hover:scale-105 transition-transform duration-200'>Request Invite
+            </button>
             <img src={Hamburger} alt="/" className='block md:hidden'/>
         </div>
     </div>

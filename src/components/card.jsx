@@ -6,7 +6,7 @@ import Openai from '../assets/images/icon-api.svg'
 
 function card() {
   return (
-    <section className='bg-gray-50  my-[5rem] py-[5rem]'>
+    <section className='bg-gray-50  py-[5rem] text-gray-500'>
         <div className='mb-6 max-w-[1240px] mx-auto text-center md:text-left'>
             <h1 className="text-5xl md:text-5xl py-5 text-gray-600">Why choose Digitalbank?</h1>
             <p className='mb-6 max-w-md mx-auto md:mx-0'>
@@ -14,7 +14,7 @@ function card() {
                 your finances like never before.
             </p>
         </div>
-        <div className='mb-6 max-w-[1240px] mx-auto grid md:grid-cols-4 text-center md:text-left items-center justify-center gap-6'>
+        <div className=' mb-6 max-w-[1240px] mx-auto grid md:grid-cols-4 text-center md:text-left items-center justify-center gap-6'>
             {/* <div className=""> */}
                 <div className="">
                     <img src={Online} alt="" className='mx-auto md:mx-0'/>
